@@ -14,7 +14,8 @@ int partition (int a[], int start, int end)
         {   
            i++; // increment index of smaller element   
             int t = a[i];   
-            a[i] = a[j];   
+            a[i] = a[j]; 
+        
             a[j] = t;   
         }   
     }   
